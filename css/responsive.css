@@ -1,0 +1,14 @@
+/* Mobile-first: base styles are already mobile */
+
+@media (min-width: 481px) {
+  body { box-shadow: 0 0 40px rgba(0,0,0,0.12); }
+  .bottom-nav { border-radius: 0; }
+  .sticky-bottom { border-radius: 0; }
+}
+
+@media (max-width: 360px) {
+  .main-content { padding: 16px 14px 100px; }
+  .site-header { padding: 14px 14px; }
+  .product-card-info h3 { font-size: 13px; }
+  .section-title { font-size: 18px; }
+}

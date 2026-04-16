@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusShop – Carrito</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="page-header">
+    <a href="index.html" class="header-back" aria-label="Volver">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </a>
+    <span class="header-title">Mi Carrito (3)</span>
+    <div style="width:24px;"></div>
+  </header>
+
+  <main class="main-content" style="padding-bottom: 200px;">
+    <div style="display: flex; flex-direction: column; gap: 14px;">
+
+      <article class="cart-item">
+        <div class="cart-item-img">
+          <div class="placeholder-img" style="background:linear-gradient(135deg,#2d5a3d,#1a3a2a);">☕</div>
+        </div>
+        <div class="cart-item-info">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+            <h3>Taza de Cerámica Campus</h3>
+            <button class="btn-delete" aria-label="Eliminar">🗑</button>
+          </div>
+          <p class="cart-item-ref">Ref: #SKU12345</p>
+          <div class="cart-item-bottom">
+            <div class="qty-control">
+              <button class="qty-btn" aria-label="Restar">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn" aria-label="Sumar">+</button>
+            </div>
+            <div class="cart-item-price">
+              <div class="price">$12.50</div>
+              <div class="subtotal-label">subtotal</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="cart-item">
+        <div class="cart-item-img">
+          <div class="placeholder-img" style="background:linear-gradient(135deg,#b0b0b0,#888);">👕</div>
+        </div>
+        <div class="cart-item-info">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+            <h3>Sudadera con Capucha Gris</h3>
+            <button class="btn-delete" aria-label="Eliminar">🗑</button>
+          </div>
+          <p class="cart-item-ref">Ref: #SKU67890</p>
+          <div class="cart-item-bottom">
+            <div class="qty-control">
+              <button class="qty-btn" aria-label="Restar">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn" aria-label="Sumar">+</button>
+            </div>
+            <div class="cart-item-price">
+              <div class="price">$45.00</div>
+              <div class="subtotal-label">subtotal</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="cart-item">
+        <div class="cart-item-img">
+          <div class="placeholder-img" style="background:linear-gradient(135deg,#333,#111);">🎒</div>
+        </div>
+        <div class="cart-item-info">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+            <h3>Mochila Resistente Negra</h3>
+            <button class="btn-delete" aria-label="Eliminar">🗑</button>
+          </div>
+          <p class="cart-item-ref">Ref: #SKU11223</p>
+          <div class="cart-item-bottom">
+            <div class="qty-control">
+              <button class="qty-btn" aria-label="Restar">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn" aria-label="Sumar">+</button>
+            </div>
+            <div class="cart-item-price">
+              <div class="price">$38.99</div>
+              <div class="subtotal-label">subtotal</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- ORDER SUMMARY -->
+    <div class="order-summary" style="margin-top: 24px;">
+      <div class="summary-row">
+        <span>Subtotal</span>
+        <span>$96.49</span>
+      </div>
+      <div class="summary-row">
+        <span>Impuestos</span>
+        <span>$18.33</span>
+      </div>
+      <div class="summary-row total">
+        <span>Total</span>
+        <span>$114.82</span>
+      </div>
+    </div>
+
+  </main>
+
+  <div class="sticky-bottom">
+    <a href="checkout.html" class="btn-primary">Proceder al Pago</a>
+  </div>
+
+</body>
+</html>

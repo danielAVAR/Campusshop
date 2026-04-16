@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusShop – Carrito Vacío</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="page-header">
+    <a href="index.html" class="header-back" aria-label="Volver">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </a>
+    <span class="header-title">Tu Carrito</span>
+    <div style="width:24px;"></div>
+  </header>
+
+  <main style="padding-bottom: 100px;">
+    <div class="empty-state">
+      <div class="empty-icon-wrap" style="color:var(--green-dark);">
+        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+          <line x1="4" y1="4" x2="20" y2="20" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <h2>Tu carrito está vacío :(</h2>
+      <p>Parece que aún no has añadido nada. ¡Explora nuestros productos!</p>
+    </div>
+  </main>
+
+  <div class="sticky-bottom">
+    <a href="catalogo.html" class="btn-primary">Explorar Catálogo</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusShop – Catálogo</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="page-header">
+    <div style="display:flex;align-items:center;gap:8px;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </div>
+    <span class="header-title">Catálogo</span>
+    <a href="carrito.html" class="cart-badge-wrap" aria-label="Carrito">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+      <span class="cart-badge">3</span>
+    </a>
+  </header>
+
+  <!-- FILTERS -->
+  <div class="filters-row">
+    <button class="filter-pill active">
+      Talla
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <button class="filter-pill">
+      Color
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <button class="filter-pill">
+      Precio
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <button class="filter-pill">
+      Categoría
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+  </div>
+
+  <main class="main-content" style="padding-top:16px;">
+    <div class="product-grid">
+
+      <a href="producto.html" class="product-card">
+        <div class="product-card-img">
+          <div class="placeholder-img" style="background:linear-gradient(135deg,#1a3a2a,#2d5a3d);">⭐</div>
+          <span class="badge badge-oferta">Oferta</span>
+        </div>
+        <div class="product-card-info">
+          <h3>Sudadera Clásica</h3>
+          <div class="product-card-bottom">
+            <span class="price">$39.99</span>
+            <span class="btn-add-cart">+</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="producto.html" class="product-card">
+        <div class="product-card-img">
+          <div class="placeholder-img" style="background:linear-gradient(135deg,#f5e6d3,#e8c9a0);">✦</div>
+          <span class="badge badge-stock">Poco Stock</span>
+        </div>
+        <div class="product-card-info">
+          <h3>Camiseta Orgánica</h3>
+          <div class="product-card-bottom">
+            <span class="price">$24.99</span>
+            <span class="btn-add-cart">+</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="producto.html" class="product-card">
+        <div class="product-card-img">
+          <div class="placeholder-img" style="background:linear-gradient(135deg,#f5e6d3,#ead5b0);">✦</div>
+        </div>
+        <div class="product-card-info">
+          <h3>Gorra Deportiva</h3>
+          <div class="product-card-bottom">
+            <span class="price">$19.99</span>
+            <span class="btn-add-cart">+</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="producto.html" class="product-card">
+        <div class="product-card-img">
+          <div class="placeholder-img" style="background:linear-gradient(135deg,#d4e8d4,#b0ccb0);">✦</div>
+          <span class="badge badge-stock">Poco Stock</span>
+        </div>
+        <div class="product-card-info">
+          <h3>Mochila Resistente</h3>
+          <div class="product-card-bottom">
+            <span class="price">$45.00</span>
+            <span class="btn-add-cart">+</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="producto.html" class="product-card">
+        <div class="product-card-img">
+          <div class="placeholder-img" style="background:linear-gradient(135deg,#e8e8e8,#d0d0d0);">🧴</div>
+          <span class="badge badge-oferta">Oferta</span>
+        </div>
+        <div class="product-card-info">
+          <h3>Botella Reutilizable</h3>
+          <div class="product-card-bottom">
+            <span class="price">$15.50</span>
+            <span class="btn-add-cart">+</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="producto.html" class="product-card">
+        <div class="product-card-img">
+          <div class="placeholder-img" style="background:linear-gradient(135deg,#f0e8d4,#d4c090);">⭐</div>
+        </div>
+        <div class="product-card-info">
+          <h3>Libreta Ecológica</h3>
+          <div class="product-card-bottom">
+            <span class="price">$12.00</span>
+            <span class="btn-add-cart">+</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="index.html">
+      <div class="nav-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+      Inicio
+    </a>
+    <a href="catalogo.html" class="active">
+      <div class="nav-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></div>
+      Categorías
+    </a>
+    <a href="carrito.html">
+      <div class="nav-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></div>
+      Carrito
+    </a>
+    <a href="#">
+      <div class="nav-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+      Favoritos
+    </a>
+    <a href="perfil.html">
+      <div class="nav-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+      Perfil
+    </a>
+  </nav>
+
+</body>
+</html>

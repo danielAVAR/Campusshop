@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusShop – Checkout</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="page-header">
+    <a href="carrito.html" class="header-back" aria-label="Volver">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </a>
+    <span class="header-title">Checkout</span>
+    <div style="width:24px;"></div>
+  </header>
+
+  <main class="main-content" style="padding-bottom: 110px;">
+
+    <!-- SHIPPING -->
+    <section>
+      <h2 class="section-title">Envío</h2>
+      <div class="form-group">
+        <label for="nombre">Nombre Completo</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre completo">
+      </div>
+      <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" placeholder="Ingresa tu dirección">
+      </div>
+      <div class="form-group">
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" placeholder="Tu ciudad">
+      </div>
+    </section>
+
+    <!-- PAYMENT METHOD -->
+    <section style="margin-top: 24px;">
+      <h2 class="section-title">Método de Pago</h2>
+      <div class="payment-options">
+        <div class="payment-card active">
+          <div class="pay-icon">💳</div>
+          <span>Visa</span>
+        </div>
+        <div class="payment-card">
+          <div class="pay-icon">💳</div>
+          <span>MasterCard</span>
+        </div>
+        <div class="payment-card">
+          <div class="pay-icon">🅿️</div>
+          <span>PayPal</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER SUMMARY -->
+    <section style="margin-top: 24px;">
+      <div class="checkout-summary">
+        <h3>Resumen de tu Orden</h3>
+
+        <div class="checkout-product-row">
+          <div class="checkout-product-img">
+            <div class="placeholder-img" style="background:linear-gradient(135deg,#e8b090,#c08060);">👟</div>
+          </div>
+          <div class="checkout-product-info">
+            <h4>Zapatillas Deportivas</h4>
+            <span>Cantidad: 1</span>
+          </div>
+          <span class="checkout-product-price">$120.00</span>
+        </div>
+
+        <div class="checkout-product-row">
+          <div class="checkout-product-img">
+            <div class="placeholder-img" style="background:linear-gradient(135deg,#333,#111);">🎧</div>
+          </div>
+          <div class="checkout-product-info">
+            <h4>Auriculares Premium</h4>
+            <span>Cantidad: 1</span>
+          </div>
+          <span class="checkout-product-price">$99.50</span>
+        </div>
+
+        <hr class="checkout-divider">
+        <div class="checkout-total">
+          <span>Total</span>
+          <span>$224.50</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="sticky-bottom">
+    <button class="btn-primary">Pagar $224.50</button>
+  </div>
+
+</body>
+</html>
