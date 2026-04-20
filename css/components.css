@@ -98,6 +98,16 @@
   border: 1px solid var(--gray-200);
   transition: transform var(--transition), box-shadow var(--transition);
   cursor: pointer;
+  tr:nth-child(even) {
+    background-color: #460b0b; /* Light gray stripe */
+  }
+  
+}
+
+.table-card {
+  tr:nth-child(even) {
+    background-color: #d10e0e; /* Light gray stripe */
+  }  
 }
 
 .product-card:hover {
@@ -112,6 +122,15 @@
   background: var(--gray-200);
   overflow: hidden;
 }
+
+.product-card-img2 {
+  position: relative;
+  width: 50px;
+  aspect-ratio: 1 / 1;
+  background: 
+  overflow: hidden;
+}
+
 
 .product-card-img img {
   width: 100%;
